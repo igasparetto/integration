@@ -1,13 +1,10 @@
 {
   "name": "segmentio-integration",
-  "version": "0.1.0",
-  "description": "Segment.io integration base prototype",
+  "version": "0.2.0",
+  "description": "Generate Segment.io integration constructors.",
   "keywords": [],
   "author": "Segment.io <friends@segment.io>",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/segmentio/segmentio-integration.git"
-  },
+  "repository": "git://github.com/segmentio/segmentio-integration.git",
   "dependencies": {
     "debug": "~0.7.2",
     "is": "~0.2.6"
@@ -16,5 +13,5 @@
     "mocha": "*",
     "should": "*"
   },
-  "main": "lib/index"
+  "main": "lib/index.js"
 }
