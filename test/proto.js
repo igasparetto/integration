@@ -32,6 +32,16 @@ describe('proto', function(){
       ();
   })
 
+  describe('.use(fn)', function(){
+    it('should call the plugin with self', function(){
+      var fn = spy();
+      segment.use(fn);
+      assert.equal(1, fn.args.length);
+      assert.equal(1, fn.args[0].length);
+      assert.equal(fn.args[0][0], segment);
+    });
+  });
+
   describe('#map', function(){
     describe('when `map` is not an object or array', function(){
       it('should return an empty array', function(){
