@@ -11,11 +11,11 @@
   "dependencies": {
     "analytics-events": "1.x",
     "batch": "^0.5.1",
-    "debug": "~0.7.4",
-    "methods": "0.0.1",
-    "ms": "~0.6.2",
-    "shared-lock": "0.0.3",
-    "superagent": "~0.16.0",
+    "debug": "^2.1.0",
+    "methods": "^1.1.0",
+    "ms": "^0.7.0",
+    "shared-lock": "^0.0.3",
+    "superagent": "^0.21.0",
     "to-no-case": "^0.1.2",
     "type": "git://github.com/segmentio/type",
     "uniq-component": "^1.0.0"
@@ -23,7 +23,7 @@
   "devDependencies": {
     "batch": "^0.5.1",
     "make-lint": "^1.0.1",
-    "mocha": "~1.17.1",
+    "mocha": "^2.0.0",
     "redis": "^0.12.1",
     "segmentio-facade": "2.x"
   },
